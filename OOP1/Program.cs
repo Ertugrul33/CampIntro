@@ -46,7 +46,7 @@ namespace OOP1
 
             ------------------------------------------------------------------------
 
-            void ve return 'ün farkı:
+            void ve return'ün farkı:
             productManager.Topla2(3, 6); //Bu işlemin sonucunu artık başka bir yerde kullanamam. void'in amacı budur.
 
             int toplamaSonucu = productManager.Topla(3, 6);
