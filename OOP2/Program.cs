@@ -23,7 +23,7 @@ namespace OOP2
             musteri2.VergiNo = "1234567890";
 
             Musteri musteri3 = new GercekMusteri();//new dendiği için hem GercekMusteri'nin ref. no'sunu tutuyor;
-            Musteri musteri4 = new TuzelMusteri();//Hem de TuzelMusteri'nin ref. no'sunu tutuyor.
+            Musteri musteri4 = new TuzelMusteri();//hem de TuzelMusteri'nin ref. no'sunu tutuyor.
 
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri1);

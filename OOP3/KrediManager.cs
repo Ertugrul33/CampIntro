@@ -10,7 +10,7 @@ namespace OOP3
         void Hesapla();
         void BiseyYap();
     }
-    //Loglama, kim ne zaman hangi operasyonu çağırmayı kontrol eder. Bir nevi o sistemde olan hareketleri döktüğümüz bir dökümdür.
+    //Loglama, kim ne zaman hangi operasyonu çağırdığını kontrol eder. Bir nevi o sistemde olan hareketleri döktüğümüz bir dökümdür.
     //Loglar, dosyalarda, veri tabanlarında tutulabilir veya SMS olarak gönderilebilir.
     //Her biri için farklı kodlar yazılır.
 }
