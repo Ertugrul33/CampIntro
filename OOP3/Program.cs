@@ -23,6 +23,10 @@ namespace OOP3
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
 
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+
+            //6.Dersten Notlar:
+            //Eğer bir sınıf inherits(miras) veya implements(interface) yapılmadıysa ileride sorun çıkacaktır.
+            //Bir projeye başlamadan önce öncelikle interface yani bir şablon oluştur.
         }
     }
 }
