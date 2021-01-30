@@ -1,8 +1,8 @@
 ﻿--Select
 --ANSI (Bir yazım standardıdır.)
-Select ContactName Adi,CompanyName SirketAdi,City Sehir from Customers --Bellekte fake bir tablo oluşturur ve onu çağırır. Bu yazı bir tablodur aslında.
+SELECT ContactName Adi,CompanyName SirketAdi,City Sehir from Customers --Bellekte fake bir tablo oluşturur ve onu çağırır. Bu yazı bir tablodur aslında.
 
-Select * from Customers where City = 'Berlin'
+SELECT * from Customers where City = 'Berlin'
 
 --Case insensitive (Büyük - küçük harf duyarsızdır.)
 sElEcT * from Products where CategoryID = 1 and UnitPrice>=10
